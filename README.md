@@ -3,7 +3,7 @@
 <div style="text-align: center">
   <img width="400px" src="assets/logo.png">
   <p>
-    <a href="#">📑 Technical Report</a> |
+    <a href="http://arxiv.org/abs/2606.24597">📑 Technical Report</a> |
     <a href="https://qwen.ai/blog?id=qwen-agentworld">📖 Blog</a> |
     <a href="https://huggingface.co/collections/Qwen/qwen-agentworld">🤗 Hugging Face</a> |
     <a href="https://modelscope.cn/collections/Qwen/Qwen-AgentWorld">🤖 ModelScope</a> |
@@ -20,7 +20,7 @@ Welcome to the GitHub repository of Qwen-AgentWorld. Here, you can find official
 
 ## News
 
-- **2026-06-24**: We release **Qwen-AgentWorld-35B-A3B** and **AgentWorldBench**. Read more on our [blog](https://qwen.ai/blog?id=qwen-agentworld) and the [technical report](#).
+- **2026-06-24**: We release **Qwen-AgentWorld-35B-A3B** and **AgentWorldBench**. Read more on our [blog](https://qwen.ai/blog?id=qwen-agentworld) and the [technical report](http://arxiv.org/abs/2606.24597).
 
 
 ## Open-Source Release
@@ -122,7 +122,7 @@ Qwen-AgentWorld-397B-A17B achieves the highest overall score (58.71), outperform
 | w/ LWM RL | **39.55** | **67.86** | **47.42** | **46.17** | **64.88** | **49.43** | **71.25** |
 | Δ | +6.30 | +3.39 | +5.24 | +12.79 | +11.28 | +9.67 | +8.96 |
 
-For detailed results, please check out the [blog](https://qwen.ai/blog?id=qwen-agentworld) and the [technical report](#).
+For detailed results, please check out the [blog](https://qwen.ai/blog?id=qwen-agentworld) and the [technical report](http://arxiv.org/abs/2606.24597).
 
 
 ## Quickstart
@@ -306,11 +306,11 @@ You can find the license files in the respective Hugging Face repositories.
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
-@misc{qwenagentworldblog,
-    title  = {Qwen-AgentWorld: Language World Models for General Agents},
-    url    = {https://qwen.ai/blog?id=qwen-agentworld},
-    author = {{Qwen Team}},
-    year   = {2026}
+@article{zuo2026qwen,
+  title={Qwen-agentworld: language world models for general agents},
+  author={Zuo, Yuxin and Xiao, Zikai and Sheng, Li and Huang, Fei and Tu, Jianhong and Liu, Yuxuan and Tang, Tianyi and Hu, Xiaomeng and Su, Yang and Lan, Qingfeng and others},
+  journal={arXiv preprint arXiv:2606.24597},
+  year={2026}
 }
 ```
 
